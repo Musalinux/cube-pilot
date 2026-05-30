@@ -283,4 +283,5 @@ def main():
             print("Invalid option. Please choose 1, 2, 3, or 4.")
 
 
-main()
+if __name__ == "__main__":
+    main()
