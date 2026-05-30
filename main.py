@@ -3,6 +3,7 @@ import kociemba
 
 VALID_FACELET_LETTERS = {"U", "R", "F", "D", "L", "B"}
 FACE_ORDER = ["U", "R", "F", "D", "L", "B"]
+SOLVED_CUBE = "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
 
 
 def validate_cube_string(cube_string):
@@ -41,10 +42,15 @@ def print_cube_faces(cube_string):
 
 
 def solve_cube(cube_string):
+    cube_string = cube_string.strip().upper()
+
     is_valid, message = validate_cube_string(cube_string)
 
     if not is_valid:
         return message
+
+    if cube_string == SOLVED_CUBE:
+        return "Cube is already solved. No moves needed."
 
     try:
         solution = kociemba.solve(cube_string)
@@ -96,6 +102,7 @@ cube_input = get_cube_input_face_by_face()
 print()
 print("Final cube string:")
 print(cube_input)
+print_cube_faces(cube_input)
 
 print()
 print("Sticker counts:")
