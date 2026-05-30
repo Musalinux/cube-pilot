@@ -1,0 +1,245 @@
+[
+    {
+        "sticker": 1,
+        "rgb": [
+            209,
+            187,
+            131
+        ],
+        "hsv": [
+            22,
+            95,
+            209
+        ],
+        "lab": [
+            195,
+            128,
+            159
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 13.15,
+            "yellow": 60.74,
+            "red": 104.14,
+            "orange": 90.74,
+            "green": 75.27,
+            "blue": 83.77
+        }
+    },
+    {
+        "sticker": 2,
+        "rgb": [
+            215,
+            193,
+            137
+        ],
+        "hsv": [
+            22,
+            93,
+            215
+        ],
+        "lab": [
+            201,
+            128,
+            159
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 7.28,
+            "yellow": 58.83,
+            "red": 108.21,
+            "orange": 94.68,
+            "green": 75.66,
+            "blue": 86.24
+        }
+    },
+    {
+        "sticker": 3,
+        "rgb": [
+            221,
+            199,
+            138
+        ],
+        "hsv": [
+            22,
+            96,
+            221
+        ],
+        "lab": [
+            206,
+            127,
+            161
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 3.0,
+            "yellow": 55.51,
+            "red": 111.86,
+            "orange": 98.19,
+            "green": 74.68,
+            "blue": 90.22
+        }
+    },
+    {
+        "sticker": 4,
+        "rgb": [
+            220,
+            198,
+            139
+        ],
+        "hsv": [
+            22,
+            94,
+            220
+        ],
+        "lab": [
+            205,
+            127,
+            160
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 3.32,
+            "yellow": 56.65,
+            "red": 111.4,
+            "orange": 97.78,
+            "green": 74.89,
+            "blue": 88.87
+        }
+    },
+    {
+        "sticker": 5,
+        "rgb": [
+            223,
+            202,
+            142
+        ],
+        "hsv": [
+            22,
+            93,
+            223
+        ],
+        "lab": [
+            209,
+            127,
+            161
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 2.45,
+            "yellow": 54.99,
+            "red": 114.03,
+            "orange": 100.32,
+            "green": 75.26,
+            "blue": 91.68
+        }
+    },
+    {
+        "sticker": 6,
+        "rgb": [
+            227,
+            206,
+            145
+        ],
+        "hsv": [
+            22,
+            92,
+            227
+        ],
+        "lab": [
+            212,
+            127,
+            161
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 4.58,
+            "yellow": 54.64,
+            "red": 116.23,
+            "orange": 102.49,
+            "green": 75.95,
+            "blue": 93.23
+        }
+    },
+    {
+        "sticker": 7,
+        "rgb": [
+            228,
+            205,
+            139
+        ],
+        "hsv": [
+            22,
+            100,
+            228
+        ],
+        "lab": [
+            212,
+            127,
+            164
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 6.48,
+            "yellow": 51.79,
+            "red": 115.54,
+            "orange": 101.72,
+            "green": 74.9,
+            "blue": 95.78
+        }
+    },
+    {
+        "sticker": 8,
+        "rgb": [
+            230,
+            209,
+            148
+        ],
+        "hsv": [
+            22,
+            91,
+            230
+        ],
+        "lab": [
+            215,
+            127,
+            161
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 7.35,
+            "yellow": 54.44,
+            "red": 118.47,
+            "orange": 104.71,
+            "green": 76.76,
+            "blue": 94.84
+        }
+    },
+    {
+        "sticker": 9,
+        "rgb": [
+            231,
+            210,
+            148
+        ],
+        "hsv": [
+            22,
+            92,
+            231
+        ],
+        "lab": [
+            216,
+            126,
+            161
+        ],
+        "predicted_colour": "white",
+        "distances": {
+            "white": 8.25,
+            "yellow": 54.13,
+            "red": 119.83,
+            "orange": 106.07,
+            "green": 76.17,
+            "blue": 95.32
+        }
+    }
+]
