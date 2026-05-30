@@ -2,118 +2,181 @@
     {
         "sticker": 1,
         "rgb": [
-            155,
-            106,
-            56
+            120,
+            4,
+            12
         ],
         "hsv": [
-            15,
-            163,
-            155
-        ]
+            178,
+            247,
+            120
+        ],
+        "lab": [
+            61,
+            174,
+            159
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 2,
         "rgb": [
-            163,
-            111,
-            55
+            135,
+            9,
+            13
         ],
         "hsv": [
-            16,
-            169,
-            163
-        ]
+            179,
+            238,
+            135
+        ],
+        "lab": [
+            71,
+            176,
+            164
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 3,
         "rgb": [
-            158,
-            109,
-            58
+            137,
+            5,
+            12
         ],
         "hsv": [
-            15,
-            161,
-            158
-        ]
+            178,
+            246,
+            137
+        ],
+        "lab": [
+            71,
+            178,
+            164
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 4,
         "rgb": [
-            155,
-            107,
-            60
+            126,
+            2,
+            7
         ],
         "hsv": [
-            15,
-            156,
-            155
-        ]
+            179,
+            251,
+            126
+        ],
+        "lab": [
+            65,
+            175,
+            163
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 5,
         "rgb": [
-            163,
-            112,
-            56
+            122,
+            13,
+            10
         ],
         "hsv": [
-            16,
-            167,
-            163
-        ]
+            1,
+            234,
+            122
+        ],
+        "lab": [
+            64,
+            172,
+            161
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 6,
         "rgb": [
-            161,
-            111,
-            57
+            135,
+            3,
+            6
         ],
         "hsv": [
-            16,
-            165,
-            161
-        ]
+            179,
+            249,
+            135
+        ],
+        "lab": [
+            70,
+            177,
+            165
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 7,
         "rgb": [
-            157,
-            106,
-            51
+            133,
+            1,
+            6
         ],
         "hsv": [
-            16,
-            172,
-            157
-        ]
+            179,
+            253,
+            133
+        ],
+        "lab": [
+            69,
+            177,
+            165
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 8,
         "rgb": [
-            166,
-            112,
-            55
+            138,
+            1,
+            5
         ],
         "hsv": [
-            15,
-            171,
-            166
-        ]
+            179,
+            253,
+            138
+        ],
+        "lab": [
+            71,
+            179,
+            167
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     },
     {
         "sticker": 9,
         "rgb": [
-            163,
-            110,
-            52
+            136,
+            3,
+            6
         ],
         "hsv": [
-            16,
-            174,
-            163
-        ]
+            179,
+            249,
+            136
+        ],
+        "lab": [
+            70,
+            178,
+            166
+        ],
+        "predicted_colour": "red",
+        "prediction_type": "calibrated"
     }
 ]
