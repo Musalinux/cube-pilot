@@ -40,6 +40,48 @@ def print_cube_faces(cube_string):
 
         start += 9
 
+MOVE_MEANINGS = {
+    "U": "Turn the upper face clockwise",
+    "D": "Turn the down/bottom face clockwise",
+    "R": "Turn the right face clockwise",
+    "L": "Turn the left face clockwise",
+    "F": "Turn the front face clockwise",
+    "B": "Turn the back face clockwise",
+}
+
+
+def explain_single_move(move):
+    face = move[0]
+    meaning = MOVE_MEANINGS.get(face, "Unknown move")
+
+    if len(move) == 1:
+        return f"{move}: {meaning}"
+
+    if move[1] == "'":
+        return f"{move}: {meaning.replace('clockwise', 'anti-clockwise')}"
+
+    if move[1] == "2":
+        return f"{move}: Turn the {meaning.split('the ')[1].replace(' clockwise', '')} twice"
+
+    return f"{move}: Unknown move type"
+
+
+def explain_solution(solution):
+    if "already solved" in solution.lower():
+        print(solution)
+        return
+
+    if "error" in solution.lower():
+        print(solution)
+        return
+
+    moves = solution.split()
+
+    print(f"Total moves: {len(moves)}")
+    print()
+
+    for number, move in enumerate(moves, start=1):
+        print(f"{number}. {explain_single_move(move)}")
 
 def solve_cube(cube_string):
     cube_string = cube_string.strip().upper()
@@ -114,3 +156,7 @@ answer = solve_cube(cube_input)
 print()
 print("Solution:")
 print(answer)
+
+print()
+print("Step-by-step explanation:")
+explain_solution(answer)
