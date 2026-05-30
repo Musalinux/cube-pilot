@@ -1,5 +1,7 @@
-import kociemba
+import json
+from datetime import datetime
 
+import kociemba
 
 VALID_FACELET_LETTERS = {"U", "R", "F", "D", "L", "B"}
 FACE_ORDER = ["U", "R", "F", "D", "L", "B"]
@@ -83,6 +85,39 @@ def explain_solution(solution):
     for number, move in enumerate(moves, start=1):
         print(f"{number}. {explain_single_move(move)}")
 
+def save_solution_history(cube_string, solution):
+    history_file = "history.json"
+
+    if "error" in solution.lower():
+        print("Not saving because solver returned an error.")
+        return
+
+    if "already solved" in solution.lower():
+        move_count = 0
+    else:
+        move_count = len(solution.split())
+
+    new_record = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "cube_string": cube_string,
+        "solution": solution,
+        "move_count": move_count
+    }
+
+    try:
+        with open(history_file, "r") as file:
+            history = json.load(file)
+    except FileNotFoundError:
+        history = []
+
+    history.append(new_record)
+
+    with open(history_file, "w") as file:
+        json.dump(history, file, indent=4)
+
+    print()
+    print("Solve history saved to history.json")
+
 def solve_cube(cube_string):
     cube_string = cube_string.strip().upper()
 
@@ -160,3 +195,4 @@ print(answer)
 print()
 print("Step-by-step explanation:")
 explain_solution(answer)
+save_solution_history(cube_input, answer)
