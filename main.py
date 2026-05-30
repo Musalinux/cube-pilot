@@ -22,6 +22,23 @@ def validate_cube_string(cube_string):
 
     return True, "Cube string looks valid."
 
+def print_cube_faces(cube_string):
+    print()
+    print("Cube faces entered:")
+
+    start = 0
+
+    for face in FACE_ORDER:
+        face_data = cube_string[start:start + 9]
+
+        print()
+        print(f"{face} face:")
+        print(face_data[0:3])
+        print(face_data[3:6])
+        print(face_data[6:9])
+
+        start += 9
+
 
 def solve_cube(cube_string):
     is_valid, message = validate_cube_string(cube_string)
